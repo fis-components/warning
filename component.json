@@ -1,0 +1,6 @@
+{
+    "repos": "https://github.com/r3dm/warning.git",
+    "version": "v2.1.0",
+    "name": "warning",
+    "main": "warning.js"
+}
