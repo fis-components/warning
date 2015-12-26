@@ -16,11 +16,9 @@
  * same logic and follow the same code paths.
  */
 
-var __DEV__ = process.env.NODE_ENV !== 'production';
-
 var warning = function() {};
 
-if (__DEV__) {
+if (process.env.NODE_ENV !== 'production') {
   warning = function(condition, format, args) {
     var len = arguments.length;
     args = new Array(len > 2 ? len - 2 : 0);
