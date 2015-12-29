@@ -18,7 +18,7 @@
 
 var warning = function() {};
 
-if (process.env.NODE_ENV !== 'production') {
+if (true) {
   warning = function(condition, format, args) {
     var len = arguments.length;
     args = new Array(len > 2 ? len - 2 : 0);
